@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Assignment INF250</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css5/main.css" rel="stylesheet" />
+</head>
+<body>
+    <form class="grid-container" action="https://rest-api-ex.herokuapp.com/all" method="post">
+            
+            <div class="grid-item-heading">
+                <p>Registration Information</p>
+            </div>
+            
+            <div class="grid-item left-column">
+                <label for="email">E-mail:</label> 
+            </div>
+            <div class="grid-item">
+                <input type="email" name="email" id="email" autofocus required>
+            </div>
+            <div class="grid-item left-column">
+                <label for="first_name">First Name:</label> 
+            </div>
+            <div class="grid-item">
+                <input type="text" name="first_name" id="first_name" required>
+            </div>
+</body>
+</html>

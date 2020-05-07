@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .menu {
+    width: 40%;
+    float: left;
+    padding: 40%;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    
+    
+    
+    
+  }
+  
+  .right {
+    width: 30%;
+    float:right;
+    padding: 15px;
+    border: 1px solid black;
+    background-color: rgb(137, 207, 97);
+    align-items:right;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    letter-spacing: 1px;
+
+   
+    
+  }
+  .menu {
+     box-shadow: grey;
+    width: 30%;
+   
+    padding: 50px;
+    width: 50%; height: 50%; 
+    letter-spacing: 1px;
+    
+    
+   
+
+  }
+
+  li {
+    display: inline;
+    padding: 30px ;
+    
+   
+}
+
+h1{ text-shadow: 3px 3px 5px #000;
+  text-align: center;
+  color: rgb(255, 255, 255);}
+
+h2{
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+    font-family: Montserrat, sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      align-items: center;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header header header'
+          'menu main main main right right'
+          'menu ';
+        ;
+    }
+
+    p{
+       font-size: x-large;
+       font-weight: bold;
+    }
+}
+
+ul {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+div.fixed {
+  position: fixed;
+  width: 50%;
+  bottom: 20px;
+  text-align: center;
+ 
+} 
+#myHeader{
+  text-shadow: 2px 2px 5px;
+  text-align: center;
+  }
+    

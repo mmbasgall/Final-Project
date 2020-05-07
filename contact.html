@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Assignment INF250</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="css5/main.css" rel="stylesheet" />
+</head>
+<h1>INF250 News</h1>
+
+<div>
+    <ul>
+      <li><a href="index.html" class="links">Home</a></li><li><a href="news.html" class="links">News</a></li><li><a href="sports.html" class="links">Sports</a></li>
+  <li><a href="weather.html" class="links">Weather</a></li><li><a href="contact.html" class="links">Contact</a></li>
+  </ul>
+  </div>
+<body>
+    <h2 id="myHeader">Contact Us</h2>
+    <form class="grid-container" action="https://rest-api-ex.herokuapp.com/all" method="post">
+            
+          
+            <div class="grid-item left-column">
+                <label for="first_name">Name:</label> 
+            </div>
+            <div class="grid-item">
+                <input type="text" name="first_name" id="first_name" required>
+            </div>
+            <div class="grid-item left-column">
+                <label for="email">E-mail:</label> 
+            </div>
+            <div class="grid-item">
+                <input type="email" name="email" id="email" autofocus required>
+            </div>
+            <div>
+                <div class="grid-item left-column">
+            <label for="message">Message</label>
+            </div>
+            <div>
+            
+        <textarea  name="subject" placeholder="contact us here..."></textarea> 
+
+        </div>
+        <div class="grid-item left-column left-button">
+            <input class="button blue" type="submit" id="submit" value="Submit">
+        </div>
+        <div class="grid-item right-button">
+            <input class="button red" type="reset" id="reset" value="Reset">
+        </div>
+    </form>
+    
+</body>
+
+<div class="fixed"><h5>FINAL PROJECT © 2020</h5</div>
+</html>
